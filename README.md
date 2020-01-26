@@ -1,3 +1,5 @@
+[![Build Status](https://ci.initzero.it/api/badges/initzero/izdock-nginx/status.svg)](https://ci.initzero.it/initzero/izdock-nginx)
+
 # Description
 Production ready NGINX Web Server + configuration inotify watch for automatic daemon reload
 

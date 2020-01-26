@@ -1,10 +1,10 @@
-ARG image_from=nginx:1.16.1
+ARG IMAGE_FROM=nginx:1.16.1
 
 FROM golang:1.12.10-buster AS gcsfuse
 ENV GOPATH /go
 RUN go get -u github.com/googlecloudplatform/gcsfuse
 
-FROM ${image_from}
+FROM ${IMAGE_FROM}
 
 MAINTAINER Ugo Viti <ugo.viti@initzero.it>
 
