@@ -1,5 +1,3 @@
-[![Build Status](https://ci.initzero.it/api/badges/initzero/izdock-nginx/status.svg)](https://ci.initzero.it/initzero/izdock-nginx)
-
 # Description
 Production ready NGINX Web Server + configuration inotify watch for automatic daemon reload
 
@@ -9,7 +7,7 @@ Production ready NGINX Web Server + configuration inotify watch for automatic da
 Where **X** is the patch version number, and **BUILD** is the build number (look into project [Tags](/repository/docker/izdock/nginx/tags/) page to discover the latest versions)
 
 # Dockerfile
-- https://github.com/ugoviti/izdock/blob/master/nginx/Dockerfile
+- https://github.com/ugoviti/izdock-nginx/blob/master/Dockerfile
 
 # Features
 - Small image footprint
